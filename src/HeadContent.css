@@ -1,0 +1,25 @@
+.headContent_div {
+  width: 100%;
+  text-align: center;
+}
+
+.headContent_div > h2 {
+  font-weight: 900;
+  font-size: 90px;
+
+  background-image: linear-gradient(
+    to right,
+    #1c99fe 20.69%,
+    #7644ff 50.95%,
+    #fd4766 79.69%
+  );
+
+  background-clip: text;
+  color: transparent;
+}
+
+.headContent_div > p {
+  color: white;
+  font-size: 5px;
+  text-align: center;
+}

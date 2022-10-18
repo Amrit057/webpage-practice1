@@ -1,0 +1,14 @@
+.container_div {
+  color: white;
+  text-align: center;
+  /* display: flex; */
+}
+
+.container_div > p {
+  color: gray;
+}
+
+.container_div:hover {
+  transform: scale(1.1);
+  color: #1c99fe;
+}

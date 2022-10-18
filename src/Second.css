@@ -1,0 +1,30 @@
+.second_div {
+  display: flex;
+  background-color: orangered;
+}
+
+.second_div_1 {
+  padding: 100px;
+}
+
+.second_div_1 > h2 {
+  font-size: 80px;
+  color: #000;
+}
+
+.second_div_1 > p {
+  font-size: 40px;
+}
+
+.second_div_1 > h2:hover {
+  color: white;
+  transform: scale(1.1);
+  background-image: linear-gradient(
+    to right,
+    #1c99fe 20.69%,
+    #7644ff 50.95%,
+    #fd4766 79.69%
+  );
+  background-clip: text;
+  color: transparent;
+}
